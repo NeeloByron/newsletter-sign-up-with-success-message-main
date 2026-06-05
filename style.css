@@ -1,0 +1,28 @@
+/*--------Check-mark list style--------*/
+.Check-mark {
+  list-style: none;
+  padding-left: 0;
+  margin: 0 0 30px 0;
+}
+
+.Check-mark li {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+
+.Check-mark li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 21px;
+  height: 21px;
+  font-size: 20px;
+  background-image: url("assets/images/icon-list.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
