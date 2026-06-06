@@ -1,15 +1,46 @@
-/*--------Font for the whole site--------*/
-body { 
-    font-family: "Roboto", sans-serif;
-    color: hsl(234, 29%, 20%);
-    font-weight: 400;
-    font-size: 16px;
+/*--------mobile (375px) -------*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /*--------image style mobile 375px--------*/
 .main-container {
   display: flex;
   flex-direction: column;
+}
+
+.img-container {
+  display: block;
+}
+
+.img-container .desktop-img {
+    display: none;
+}
+
+.img-container .mobile-img {
+    display: block;
+}
+
+/* Desktop image */
+@media (min-width: 1440px) {
+  .img-container .desktop-img {
+    display: none;
+  }
+  
+  .img-container .desktop-img {
+    display: block;
+  }
+}
+
+/*--------Font for the whole site--------*/
+body { 
+    font-family: "Roboto", sans-serif;
+    color: hsl(234, 29%, 20%);
+    font-weight: 400;
+    font-size: 16px;
+    background: white;
 }
 
 /*---------Desktop image style 1440px--------*/
