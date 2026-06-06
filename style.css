@@ -22,6 +22,8 @@ body {
     max-width: 1440px;
     margin: 0 auto;
   }
+
+
   .img-container {
     flex: 1 !important;
   }
