@@ -67,3 +67,61 @@ body {
   background-size: contain;
 }
 
+/*--------Email input field style--------*/
+.signup-form input[type="email"] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid hsl(234, 29%, 20%);
+  border-radius: 7px;
+  margin-top: 8px;
+  margin-bottom: 25px;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.signup-form input[type="email"]:focus {
+    outline: none;
+    border-color: hsl(4, 100%, 67%);
+    box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
+}
+
+.signup-form input[type="email"].error {
+    border-color: hsl(4, 100%, 67%);
+    box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
+}
+
+.signup-form input[type="email"]::placeholder {
+    color: hsl(231, 7%, 60%);
+}
+
+.signup-form button {
+  background-color: hsl(234, 29%, 20%);
+  color: white;
+  border: none;
+  padding: 15px;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.signup-form button:hover {
+  background: linear-gradient(135deg, hsl(4, 100%, 67%), hsl(345,  83%, 56%));
+  box-shadow: 0 10px 20px rgba(244, 81, 30, 0.3);
+}
+
+.h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.p1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-family: "Roboto-Regular", sans-serif;
+  font-size: 24px;
+}
