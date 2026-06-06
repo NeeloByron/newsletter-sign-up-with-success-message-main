@@ -52,7 +52,8 @@ body {
   position: relative;
   padding-left: 35px;
   margin-bottom: 12px;
-  line-height: 1.5;
+  line-height: 1.4;
+  color: hsl(234, 29%, 20%);
 }
 
 .Check-mark li::before {
@@ -62,7 +63,6 @@ body {
   top: 2px;
   width: 21px;
   height: 21px;
-  font-size: 20px;
   background-image: url("assets/images/icon-list.svg");
   background-repeat: no-repeat;
   background-position: center;
