@@ -1,6 +1,7 @@
 /*--------Font for the whole site--------*/
 body { 
     font-family: "Roboto", sans-serif;
+    color: hsl(234, 29%, 20%);
     font-weight: 400;
     font-size: 16px;
 }
