@@ -116,9 +116,19 @@ body {
   box-shadow: 0 10px 20px rgba(244, 81, 30, 0.3);
 }
 
+/*------------Headings------*/
 .h1 {
   font-size: 80px;
+  font-weight: 700;
+  color: hsl(234, 29%, 20%);
   margin-bottom: 20px;
+}
+
+@media (min-width: 1440px) {
+    h1 {
+        font-size: 56px;
+        margin-bottom: 24px;
+    }
 }
 
 .p1 {
