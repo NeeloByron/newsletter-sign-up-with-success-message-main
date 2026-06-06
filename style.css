@@ -50,8 +50,8 @@ body {
 /*---------Desktop image style 1440px--------*/
 @media (min-width: 1440px) {
   .main-container {
-    display: flex !important;
-    flex-direction: row-reverse !important;
+    display: flex;
+    flex-direction: row-reverse;
     border-radius: 32px;
     padding: 20px;
     max-width: 1440px;
@@ -68,7 +68,8 @@ body {
     display: block;
   }
   .signup-form {
-    padding: 32px 24px;
+    padding: 40px 20px 40px 40px;
+    flex: 1.1;
   }
 }
 
@@ -122,6 +123,13 @@ body {
 .signup-form input[type="email"].error {
     border-color: hsl(4, 100%, 67%);
     box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
+    width: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 24px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
 }
 
 .signup-form input[type="email"]::placeholder {
@@ -134,14 +142,13 @@ body {
   background-color: hsl(234, 29%, 20%);
   color: hsl(0, 0%, 100%);
   border: none;
-  padding: 15px;
+  padding: 16px;
   border-radius: 8px;
   cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   width: 100%;
-  transition: all 0.3s ease;
 }
 
 .signup-form button:hover {
