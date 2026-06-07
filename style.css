@@ -1,7 +1,7 @@
 /*--------Google font import--------*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/*--------mobile (375px) -------*/
+/*--------reset -------*/
 *{
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@
 }
 
 .img-container {
-  display: block;
+  width: 100%;
 }
 
 .img-container .desktop-img {
@@ -28,6 +28,8 @@
 
 .img-container .mobile-img {
     display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* Desktop image */
@@ -50,17 +52,6 @@ body {
     background: white;
 }
 
-/*---------Desktop image style 1440px--------*/
-@media (min-width: 1440px) {
-  .main-container {
-    display: flex;
-    flex-direction: row-reverse;
-    border-radius: 32px;
-    padding: 20px;
-    max-width: 1440px;
-    margin: 0 auto;
-  }
-
   .img-container {
     flex: 1;
   }
@@ -71,16 +62,15 @@ body {
     display: block;
   }
   .signup-form {
-    padding: 40px 20px 40px 40px;
-    flex: 1.1;
+    padding: 32px 24px;
   }
-}
+
 
 /*--------Check-mark list style--------*/
 .Check-mark {
   list-style: none;
   padding-left: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 32px 0;
 }
 
 .Check-mark li {
@@ -88,6 +78,9 @@ body {
   padding-left: 35px;
   margin-bottom: 12px;
   line-height: 1.4;
+  font-size: 16px;
+  font-weight: 400;
+  color: hsl(234, 29%, 20%);
 }
 
 .Check-mark li::before {
@@ -152,6 +145,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   width: 100%;
+  transition: all 0.3s ease;
 }
 
 .signup-form button:hover {
@@ -164,6 +158,8 @@ body {
   font-size: 40px;
   font-weight: 700;
   margin-bottom: 20px;
+  line-height: 1.1;
+  color: hsl(234, 29%, 20%);
 }
 
 @media (min-width: 1440px) {
@@ -175,10 +171,11 @@ body {
 
 /*-------Paragrah------*/
 .signup-form > p {
-  font-size: 25px;
+  font-size: 16px;
   margin-bottom: 24px;
   font-weight: 400;
   line-height: 1.4;
+  color: hsl(234, 29%, 20%);
 }
 
 /*---------form label------*/
@@ -187,4 +184,67 @@ label {
     font-size: 12px;
     display: block;
     margin-bottom: 8px;
+    color: hsl(234, 29%, 20%);
+}
+
+/*------Desktop (1440px) background and centering--*/
+@media (min-width: 1440px) {
+    body {
+        background: hsl(235, 18%, 26%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        padding: 20px;
+    }
+}
+
+/*-----white card container---*/
+.main-container {
+    flex-direction: row-reverse;
+    max-width: 880px;
+    background: white;
+    border-radius: 32px;
+    padding: 20px;
+    gap: 50px;
+    min-height: auto;
+    margin: 0;
+}
+
+/*---form styling left---*/
+.signup-form {
+    flex: 1;
+    padding: 40px 20px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*----larger heading desktop---*/
+.h1 {
+    font-size: 56px;
+    margin-bottom: 24px;
+}
+
+/*----paragraph stays 16px. more spacing---*/
+.signup-form > p {
+    margin-bottom: 28px;
+}
+
+/*----spacing for list---*/
+.Check-mark {
+    margin-bottom: 40px;
+}
+
+/**----input wrapper for handling error--*/
+.input-wrapper {
+    margin-bottom: 24px;
+}
+
+.error-message {
+    display: none;
+    color: hsl(4, 100%, 67%);
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 8px;
 }
