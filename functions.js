@@ -38,7 +38,7 @@ form.addEventListener('submit', function(e){
         hideError();
         userEmailSpan.textContent = email;
         signupContainer.style.display = 'none';
-        succesContainer.style.display = 'flex';
+        successContainer.style.display = 'flex';
     }
 }); 
 
