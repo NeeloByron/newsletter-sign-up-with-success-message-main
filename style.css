@@ -288,7 +288,7 @@ body {
     min-height: 85vh;
 }
 
-.success-icon {
+.success-icon-img {
     width: 64px;
     height: 64px;
     margin-bottom: 40px;
@@ -333,7 +333,7 @@ body {
     box-shadow: 0 10px 20px rgba (244, 81, 30, 0.3);
 }
 
-@media (min-width: 1440) {
+@media (min-width: 1440px) {
     .success-container {
         max-width: 480px;
         min-height: auto;
