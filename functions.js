@@ -39,5 +39,19 @@ form.addEventListener('submit', function(e){
         signupContainer.style.display = 'none';
         succesContainer.style.display = 'flex';
     }
-
 }); 
+
+//Dismiss button 
+dismissionBtn.addEventListener('click', function() {
+    succesContainer.style.display = 'none';
+    signupContainer.style.display = 'flex';
+    emailInput.value = '';
+    hideError();
+});
+
+//Remove error when typing
+emailInput.addEventListener('input', function() {
+    if (emailInput.classList.contains('error')) {
+        hideError();
+    }
+});
