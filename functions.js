@@ -1,10 +1,11 @@
 //Get elements
 const signupContainer = document.getElementById('signupContainer');
-const succesContainer = document.getElementById('successContainer');
-const form = document.getElementById('signForm');
+const successContainer = document.getElementById('successContainer');
+const form = document.getElementById('signupForm');
 const emailInput = document.getElementById('email');
-const errorEmailSpan = document.getElementById('errorMessage');
-const dismissionBtn = document.getElementById('dismissBtn');
+const errorMessage = document.getElementById('errorMessage');
+const dismissBtn = document.getElementById('dismissBtn');
+const userEmailSpan = document.getElementById('userEmail');
 
 // Email validation function
 function isValidEmail (email) {
@@ -42,8 +43,8 @@ form.addEventListener('submit', function(e){
 }); 
 
 //Dismiss button 
-dismissionBtn.addEventListener('click', function() {
-    succesContainer.style.display = 'none';
+dismissBtn.addEventListener('click', function() {
+    successContainer.style.display = 'none';
     signupContainer.style.display = 'flex';
     emailInput.value = '';
     hideError();
