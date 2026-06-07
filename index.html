@@ -30,7 +30,7 @@
 
   <label for="email">Email address</label>
   <div class="input-wrapper">
-  <input type="email" id="email" name="email" placeholder="email@company.com" required>
+  <input type="email" id="email" name="email" placeholder="email@company.com" autocomplete="email" required>
   <span class="error-message" id="errorMessage">Valid email required</span>
   </div>
   <button type="submit" name="submit">Subscribe to monthly newsletter</button>
@@ -40,15 +40,15 @@
 
   <!-- Success message start -->
    <div class="success-container" id="successContainer" style="display: none;">
-   <div class="success-content">
-     <img class="success-icon" src="assets/images/icon-success.svg" alt="Success icon">
-   </div>
-  <div class="success-message" id="successMessage">
+     <div class="success-content">
+       <img class="success-icon" src="assets/images/icon-success.svg" alt="Success icon">
+
     <h1>Thanks for subscribing!</h1>
     <p>A confirmation email has been sent to <span id="userEmail">ash@loremcompany.com.</span>.
     <p>Please open it and click the button inside to confirm your subscription.</p>
     <button id="dismissBtn">Dismiss message</button>
     </div>
+   </div>
   </div>
   <!-- Success message end -->
   
