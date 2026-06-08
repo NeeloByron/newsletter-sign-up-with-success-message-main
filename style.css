@@ -112,11 +112,12 @@ label {
 
 .signup-form input[type="email"].error {
     border-color: hsl(4, 100%, 67%);
+    background-color: rgba(244, 81, 30, 0.1);
     box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
     width: 100%;
     padding: 16px;
     border-radius: 8px;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     box-sizing: border-box;
@@ -135,7 +136,7 @@ label {
     text-align: right;
 }
 .error-message.show {
-    display: block;
+    display: inline-block;
 }
 
 /*--------Submit button style--------*/
@@ -220,14 +221,6 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-}
-
-/*----larger heading desktop---*/
-h1 {
-    font-size: 48px;
-    font-weight: 800;
-    margin-bottom: 28px;
-    letter-spacing: -1px;
 }
 
 /*----paragraph stays 16px. more spacing---*/
