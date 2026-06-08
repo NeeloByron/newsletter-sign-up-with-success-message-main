@@ -96,11 +96,6 @@ label {
     color: hsl(234, 29%, 20%);
 }
 
-/**----input wrapper for handling error--
-    margin-bottom: 16px;
-}*/
-
-
 /*--------Email input field style--------*/
 .signup-form input[type="email"] {
   width: 100%;
