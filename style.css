@@ -99,7 +99,7 @@ label {
 
 /**----input wrapper for handling error--*/
 .input-wrapper {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 /*--------Email input field style--------*/
@@ -108,7 +108,7 @@ label {
   padding: 15px;
   border: 1px solid hsl(234, 29%, 20%);
   border-radius: 8px;
-  margin-bottom: 24px;
+  margin-bottom: 0;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
