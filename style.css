@@ -115,12 +115,6 @@ label {
   box-sizing: border-box;
 }
 
-.signup-form input[type="email"]:focus {
-    outline: none;
-    border-color: hsl(4, 100%, 67%);
-    box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
-}
-
 .signup-form input[type="email"].error {
     border-color: hsl(4, 100%, 67%);
     box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
