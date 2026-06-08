@@ -28,7 +28,7 @@ function hideError() {
 //form submission
 form.addEventListener('submit', function(e){
     e.preventDefault();
-
+    
     const email = emailInput.value.trim();
 
     if (email === "") {
