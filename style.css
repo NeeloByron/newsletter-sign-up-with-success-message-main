@@ -164,7 +164,7 @@ label {
 }
 
 .signup-form button:hover {
-  background: linear-gradient(135deg, hsl(4, 100%, 67%), hsl(345,  83%, 56%));
+  background: linear-gradient(135deg, hsl(4, 100%, 67%), hsl(345, 83%, 56%));
   box-shadow: 0 10px 20px rgba(244, 81, 30, 0.3);
 }
 
@@ -241,19 +241,6 @@ body {
 }
 }
 
-/*------Desktop (1440px) background and centering--*/
-@media (min-width: 1440px) {
-    body {
-        background: hsl(235, 18%, 26%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        padding: 20px;
-        margin: 0;
-    }
-}
-
 /*----larger heading desktop---*/
 .h1 {
     font-size: 56px;
@@ -285,28 +272,28 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 85vh;
+    min-height: auto;
+    gap: 20px;
 }
 
-.success-icon-img {
+.success-icon {
     width: 64px;
     height: 64px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .success-container h1 {
     font-size: 40px;
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.1;
-    color: hsl(234, 29%, 20%);
+    margin: 0;
 }
 
 .success-container p {
     font-size: 16px;
     line-height: 1.5;
-    margin-bottom: 32px;
-    color: hsl(234, 29%, 20%);
+    margin: 0;
 }
 
 #userEmail {
@@ -325,43 +312,27 @@ body {
     font-size: 16px;
     width: 100%;
     transition: all 0.3s ease;
-    margin-top: auto;
+    margin-top: 20px;
 }
 
 #dismissBtn:hover {
-    background: linear-gradient(135deg, hsl(4, 100%, 67%), hsl (345, 83%, 56%));
-    box-shadow: 0 10px 20px rgba (244, 81, 30, 0.3);
+    background: linear-gradient(135deg, hsl(4, 100%, 67%), hsl(345, 83%, 56%));
+    box-shadow: 0 10px 20px rgba(244, 81, 30, 0.3);
 }
 
 @media (min-width: 1440px) {
     .success-container {
         max-width: 480px;
-        min-height: auto;
         border-radius: 32px;
         padding: 48px;
     }
 
-    .success-content {
-        min-height: 56px;
-        gap: 20px;
+    .success-container p {
+        margin-bottom: 32px;
     }
-
     .success-container h1 {
         font-size: 56px;
-        margin-bottom: 16px;
+        margin-bottom: 24px;
     }
 }
 
-.success-icon {
-    width: 64px;
-    height: 64px;
-    background-color: hsl(234, 29%, 20%);
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
