@@ -45,7 +45,7 @@
   font-weight: 400;
   line-height: 1.4;
   color: hsl(234, 29%, 20%);
-  letter-spacing: -0,5px;
+  letter-spacing: -0.5px;
 }
 
 /*------------Headings------*/
@@ -231,22 +231,15 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-
-  @media (min-width: 1440px) {
-    h1 {
-        font-size: 56px;
-        margin-bottom: 24px;
-    }
-
-}
+  }
 }
 
 /*----larger heading desktop---*/
 h1 {
-    font-size: 56px;
-    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 28px;
+    letter-spacing: -1px;
 }
 
 /*----paragraph stays 16px. more spacing---*/
