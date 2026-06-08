@@ -50,12 +50,11 @@
 
 /*------------Headings------*/
 h1 {
-  font-size: 48px;
+  font-size: 44px;
   font-weight: 800;
   margin-bottom: 24px;
-  line-height: 1.1;
+  line-height: 1.2;
   color: hsl(234, 29%, 20%);
-  letter-spacing: -1px;
 }
 
 /*--------Check-mark list style--------*/
