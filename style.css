@@ -252,14 +252,14 @@ h1 {
     max-width: 375px;
     margin: 0 auto;
     background: white;
-    min-height: 100vh;
+    min-height: auto;
     padding: 32px 24px;
 }
 
 .success-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     min-height: auto;
     gap: 20px;
 }
