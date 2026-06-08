@@ -31,7 +31,12 @@ form.addEventListener('submit', function(e){
 
     const email = emailInput.value.trim();
 
-    if (!isValidEmail(email)) {
+    if (email === "") {
+        errorMessage.textContent = "Email address is required";
+        showError();
+    }
+    else if (!isValidEmail(email)) {
+        errorMessage.textContent = "Valid email required";
         showError();
     }
     else {
