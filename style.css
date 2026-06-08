@@ -92,14 +92,14 @@ label {
     font-weight: 700;
     font-size: 12px;
     display: block;
-    margin-bottom: 8px;
+    margin: 0;
     color: hsl(234, 29%, 20%);
 }
 
-/**----input wrapper for handling error--*/
-.input-wrapper {
+/**----input wrapper for handling error--
     margin-bottom: 16px;
-}
+}*/
+
 
 /*--------Email input field style--------*/
 .signup-form input[type="email"] {
@@ -107,7 +107,7 @@ label {
   padding: 15px;
   border: 1px solid hsl(234, 29%, 20%);
   border-radius: 8px;
-  margin-bottom: 0;
+  margin-bottom: 24px;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -137,7 +137,6 @@ label {
     color: hsl(4, 100%, 67%);
     font-size: 12px;
     font-weight: 700;
-    margin-top: 8px;
 }
 .error-message.show {
     display: block;
@@ -323,3 +322,9 @@ h1 {
     }
 }
 
+.email-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
