@@ -8,7 +8,6 @@ This is a solution to the [Newsletter sign-up form with success message challeng
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
@@ -33,10 +32,9 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/NeeloByron/newsletter-sign-up-with-success-message-main.git](https://your-solution-url.com)
+- Live Site URL: [https://neelobyron.github.io/newsletter-sign-up-with-success-message-main/](https://your-live-site-url.com)
 
-## My process
 
 ### Built with
 
