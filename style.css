@@ -97,7 +97,7 @@ label {
 }
 
 /*--------Email input field style--------*/
-.signup-form input[type="email"] {
+.signup-form input[type="text"] {
   width: 100%;
   padding: 16px;
   border: 1px solid hsl(234, 29%, 20%);
@@ -110,7 +110,7 @@ label {
   box-sizing: border-box;
 }
 
-.signup-form input[type="email"].error {
+.signup-form input[type="text"].error {
     border-color: hsl(4, 100%, 67%);
     background-color: rgba(244, 81, 30, 0.1);
     box-shadow: 0 0 0 2px rgba(244, 81, 30, 0.2);
@@ -121,9 +121,10 @@ label {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     box-sizing: border-box;
+    color: hsl(4, 100%, 67%);
 }
 
-.signup-form input[type="email"]::placeholder {
+.signup-form input[type="text"]::placeholder {
     color: hsl(231, 7%, 60%);
     opacity: 0.5;
 }
